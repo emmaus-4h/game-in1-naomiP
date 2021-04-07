@@ -17,3 +17,12 @@ html, body {
    */ 
   margin: 0px;
 }
+
+/* speler */
+#speler{
+    width: 20px;
+    height: 50px;
+    background-color: rgb(111, 156, 52);
+    position:relative;
+    top: 650px; 
+}
