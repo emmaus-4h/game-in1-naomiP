@@ -9,12 +9,16 @@ Gemaakt door:
 Basis: uitleg, spelen, afgaan en punten
 - [x] maak index.html, style.css en script.js met canvas
 - [X] teken speler
-- [ ] beweeg speler
-- [ ] blok *(vul zelf aan)*
-- [ ] ... *(vul zelf aan)*
-- [ ] ... *(vul zelf aan)*
-- [ ] ... *(vul zelf aan)*
-- [ ] ... *(vul zelf aan)*
+- [x] beweeg speler
+- [x] speler op onderkant
+- [ ] spatie voor springen(omhoog)
+- [ ] na spatie naar beneden
+- [ ] if voor: tegen blok is af
+- [ ] 
+- [ ] ... 
+- [ ] ... 
+- [ ] ... 
+- [ ] ... 
 - [ ] punten op scherm zetten
 - [ ] punten kunnen scoren
 - [ ] uitlegscherm
