@@ -23,12 +23,12 @@ const GAMEOVER = 2;
 var spelStatus = SPELEN;
 
 const KEY_SPACE = 32;
-const KEY_UP = 38;
+// const KEY_UP = 38;
 
 var spelerX = 200; // x-positie van speler
 var spelerY = 675; // y-positie van speler
 const SPELER_Y_SPRING = 500; // y-positie als speler springt
-const SPELER_Y_LOOP = 595; // y-positie van speler op de grond
+const SPELER_Y_LOOP = 675; // y-positie van speler op de grond
 
 
 
@@ -64,7 +64,8 @@ var tekenVeld = function () {
  * @param {number} y y-coördinaat
  */
 var tekenVijand = function (x, y) {
-
+    fill(199, 0, 57);
+    rect(500, 600, 50, 700);
 
 };
 
@@ -114,11 +115,11 @@ var beweegKogel = function () {
 var beweegSpeler = function () {
     spelerX = spelerX + 1;
 
-    if (keyIsDown(KEY_UP)) {
+    if (keyIsDown(KEY_SPACE)) {
         (spelerY = SPELER_Y_SPRING)
     }
    
-   spelerY = spelerY+1;
+   spelerY = spelerY+2;
 
    if (spelerY > SPELER_Y_LOOP) {
        spelerY = SPELER_Y_LOOP;
