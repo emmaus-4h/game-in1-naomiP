@@ -110,11 +110,11 @@ var beweegSpeler = function() {
 spelerX=spelerX+1;
 
 if (keyIsDown(KEY_UP)) {
-(spelerY = 300)
+(spelerY = 500)
 }
 
 if (keyIsDown(40)) {
-(spelerY = 500)    
+(spelerY = 675)    
 }
 };
 
